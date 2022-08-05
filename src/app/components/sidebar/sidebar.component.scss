@@ -1,0 +1,161 @@
+.sidebar{
+   max-width: 14rem;
+   min-height: 1700px;
+   background-color: #4e73df;
+   background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+   background-size: cover;
+   list-style-type: none;
+   padding : 0;
+   margin-bottom: 0;
+
+   &-brand{
+      margin-left : 16px;
+
+      i {
+         font-size: 2rem;
+      }
+   }
+
+
+}
+  
+//sidebar
+
+
+.nav-item .nav-link {
+   color: rgba(255,255,255,.8);
+   padding : 1rem;
+}
+
+.nav-item:hover .nav-link{
+   color :#fff;
+}
+
+.sidebar-dark .nav-item .nav-link:hover {
+   color: #fff;
+}
+
+.nav-link span {
+   font-size: .85rem;
+   display: inline;
+}
+
+
+.sidebar-collapsed span::after {
+   width: 1rem;
+   text-align: center;
+   float: right;
+   vertical-align: 0;
+   border: 0;
+   font-weight: 900;
+   content: '\f105';
+   font-family: 'Font Awesome 5 Free';
+}
+
+
+.nav-item:hover{
+   color: #fff;
+}
+
+.sidebar-brand {
+   height: 4.375rem;
+   color :#fff;
+   font-size: 1rem;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: .05rem;
+   margin-right: 16px;
+}
+
+.sidebar-brand-text {
+   margin-left: 8px;
+}
+
+.sidebar-brand-icon i {
+   color: #fff;
+   font-size: 35px;
+}
+
+.fas {
+   color: #d1d3e2;
+   font-size: 0.85rem;
+   margin-right: 0.25rem;
+}
+
+.sidebar-icon {
+   margin-right: 5px;
+}
+
+.rotate-n-15 {
+   transform: rotate(-15deg);
+}
+
+.sidebar-divider{
+   background-color: #fff;
+   border-top: 1px solid rgba(255,255,255,.15);
+   margin: 0 1rem 1rem;
+}
+
+.sidebar-heading{
+   color: rgba(255,255,255,.4);
+   font-weight: 800;
+   font-size: .65rem; 
+   text-transform: uppercase;
+   padding: 0 1rem;
+}
+
+
+.sidebar-card {
+   width: 192px;
+   background-color: #3B5DC0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 15px;
+   margin: 15px;
+   border-radius: 10px;
+}
+
+
+
+#sidebarToggle{
+   background-color: rgba(255,255,255,.2);
+   color: #d1d3e2;
+   width: 2.5rem;
+   height: 2.5rem;
+   text-align: center;
+   margin-bottom: 1rem;
+   margin-left: 40%;
+   cursor: pointer;
+}
+
+.collapse-inner {
+   width: 200px;
+   margin : 0 auto;
+}
+
+.collapse-header {
+   margin: 0;
+   white-space: nowrap;
+   padding: 0.5rem 1.5rem;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: .65rem;
+   color: #b7b9cc;
+}
+
+.collapse-item {
+   display: block;
+   color: #3a3b45;
+   text-decoration: none;
+   border-radius: 0.35rem;
+   white-space: nowrap;
+   padding: 0.5rem 1rem;
+   margin: 0 0.5rem;
+}
+
+.collapse-inner .collapse-item:hover {
+   background-color: #eaecf4;
+}
