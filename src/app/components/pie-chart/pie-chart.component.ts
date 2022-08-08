@@ -14,7 +14,7 @@ export class PieChartComponent implements OnInit {
     ];
 
   public doughnutChartOptions: ChartConfiguration<'doughnut'>['options'] = {
-    responsive: false
+    responsive: true
   };
 
   constructor() { }

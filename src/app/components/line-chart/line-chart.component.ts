@@ -29,7 +29,7 @@ export class LineChartComponent implements OnInit {
     ]
   };
   public lineChartOptions: ChartOptions<'line'> = {
-    responsive: false
+    responsive: true
   };
   public lineChartLegend = true;
   constructor() { }

@@ -69,7 +69,33 @@
 }
 
 .sidebar-brand-text {
+   display: block;
    margin-left: 8px;
+}
+
+@media only screen and (max-width : 980px) {
+   .sidebar-brand-icon {
+      margin-right : 30px;
+   }
+
+   .sidebar-brand-text {
+      display: none;
+   }
+
+   .sidebar-heading {
+      text-align: center;
+   }
+
+   .sidebar-icon{
+      display: block;
+      margin-left : 40%;
+   }
+
+   .nav-link {
+      text-align: center;
+   } 
+
+  
 }
 
 .sidebar-brand-icon i {
