@@ -4,6 +4,13 @@
    background-size: cover;
 }
 
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -0.75rem;
+   margin-left: -0.75rem;
+}
+
 .bg-login-image {
    background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
    background-position: center;
@@ -74,11 +81,29 @@ hr {
       color: #fff;
       background-color: #3b5998;
       border-color: #fff;
-
+      margin-top: 0.5rem;
       &:hover{
          color: #fff;
          background-color: #30497c;
          border-color: #e6e6e6;
       }
    }
+}
+
+.link {
+   text-decoration: none;
+   color: #4e73df;
+   text-decoration: none;
+   background-color: transparent;
+}
+
+.small {
+   font-size: 80%;
+   font-weight: 400;
+}
+
+.form-check-label{
+   color: #858796;
+   font-size:80%;
+   margin : 0 10px 0 10px;
 }
