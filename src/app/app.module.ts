@@ -8,11 +8,13 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NgChartsModule } from 'ng2-charts';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
-import { ContentComponent } from './components/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { ContentComponent } from './components/content/content.component';
+import { ChartComponent } from './components/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password
     FooterComponent,
     RegisterComponent,
     LoginComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    NotfoundComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
