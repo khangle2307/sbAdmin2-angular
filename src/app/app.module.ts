@@ -15,6 +15,7 @@ import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { ContentComponent } from './components/content/content.component';
 import { ChartComponent } from './components/chart/chart.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ChartComponent } from './components/chart/chart.component';
     LoginComponent,
     ForgotPasswordComponent,
     NotfoundComponent,
-    ChartComponent
+    ChartComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

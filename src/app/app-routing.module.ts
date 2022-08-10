@@ -11,47 +11,52 @@ import { RegisterComponent } from './pages/register/register.component';
 
 const routes: Routes = [
   {
-    path : '',
-    redirectTo : 'admin',
-    pathMatch : 'full'
+    path: '',
+    redirectTo: 'admin',
+    pathMatch: 'full'
   },
   {
-    path : 'admin',
-    component : AdminComponent,
-    children : [
+    path: 'admin',
+    component: AdminComponent,
+    children: [
       {
-        path : 'dashboard',
-        component : DashboardComponent
+        path: '',
+        redirectTo: 'dashboard',
+        pathMatch: 'full'
       },
       {
-        path : 'table',
-        component : TableComponent
+        path: 'dashboard',
+        component: DashboardComponent
       },
       {
-        path : '404',
-        component : NotfoundComponent
+        path: 'table',
+        component: TableComponent
       },
       {
-        path : 'chart',
-        component : ChartComponent
+        path: '404',
+        component: NotfoundComponent
+      },
+      {
+        path: 'chart',
+        component: ChartComponent
       }
     ]
   },
   {
-    path : 'login',
-    component : LoginComponent
+    path: 'login',
+    component: LoginComponent
   },
   {
-    path : 'register',
-    component : RegisterComponent
+    path: 'register',
+    component: RegisterComponent
   },
   {
-    path : 'forgot',
-    component : ForgotPasswordComponent
+    path: 'forgot',
+    component: ForgotPasswordComponent
   },
   {
-    path : '**',
-    component : NotfoundComponent
+    path: '**',
+    component: NotfoundComponent
   }
 ];
 
