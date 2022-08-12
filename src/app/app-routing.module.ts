@@ -7,6 +7,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { ColorsComponent } from './components/colors/colors.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { OtherComponent } from './components/other/other.component';
 import { TableComponent } from './components/table/table.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
@@ -64,6 +65,10 @@ const routes: Routes = [
       {
         path: 'animations',
         component: AnimationsComponent
+      },
+      {
+        path: 'other',
+        component: OtherComponent
       }
     ]
   },
