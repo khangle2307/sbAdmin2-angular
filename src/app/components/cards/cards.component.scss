@@ -1,0 +1,43 @@
+.text-xs{
+   font-size : .7rem;
+}
+
+.text-primary {
+   color: #4e73df
+}
+
+.col {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.card-body {
+   flex: 1 1 auto;
+   min-height: 1px;
+   padding: 1.5rem;
+}
+
+.progress-sm {
+   height: 0.5rem;
+}
+
+.mr-2 {
+   margin-right : 0.5rem;
+}
+
+a {
+   text-decoration: none;
+}
+   
+.card-header {
+   padding: 0.75rem 1.25rem;
+   margin-bottom: 0;
+   background-color: #f8f9fc;
+   border-bottom: 1px solid #e3e6f0;
+   color: #858796;
+}
+
+.card-body {
+   color: #858796;
+}
+
