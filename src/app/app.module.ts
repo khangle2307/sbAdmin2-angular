@@ -16,6 +16,7 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { ContentComponent } from './components/content/content.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { BarchartComponent } from './components/barchart/barchart.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ForgotPasswordComponent,
     NotfoundComponent,
     ChartComponent,
-    DashboardComponent
+    DashboardComponent,
+    BarchartComponent
   ],
   imports: [
     BrowserModule,
