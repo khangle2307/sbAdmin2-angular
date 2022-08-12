@@ -21,6 +21,7 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ColorsComponent } from './components/colors/colors.component';
 import { BordersComponent } from './components/borders/borders.component';
+import { AnimationsComponent } from './components/animations/animations.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { BordersComponent } from './components/borders/borders.component';
     ButtonsComponent,
     CardsComponent,
     ColorsComponent,
-    BordersComponent
+    BordersComponent,
+    AnimationsComponent
   ],
   imports: [
     BrowserModule,
