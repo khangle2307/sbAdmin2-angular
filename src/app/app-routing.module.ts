@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ButtonsComponent } from './components/buttons/buttons.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { TableComponent } from './components/table/table.component';
@@ -39,6 +40,10 @@ const routes: Routes = [
       {
         path: 'chart',
         component: ChartComponent
+      },
+      {
+        path: 'buttons',
+        component: ButtonsComponent
       }
     ]
   },
