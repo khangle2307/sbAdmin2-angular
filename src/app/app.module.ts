@@ -17,6 +17,7 @@ import { ContentComponent } from './components/content/content.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BarchartComponent } from './components/barchart/barchart.component';
+import { ButtonsComponent } from './components/buttons/buttons.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { BarchartComponent } from './components/barchart/barchart.component';
     NotfoundComponent,
     ChartComponent,
     DashboardComponent,
-    BarchartComponent
+    BarchartComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,

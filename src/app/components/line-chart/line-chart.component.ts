@@ -19,7 +19,7 @@ export class LineChartComponent implements OnInit {
     ],
     datasets: [
       {
-        data: [ 65, 59, 80, 81, 56, 55, 40 ],
+        data: [65, 59, 80, 81, 56, 55, 40],
         label: 'Series A',
         fill: true,
         tension: 0.5,
