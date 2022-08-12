@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ChartComponent } from './components/chart/chart.component';
+import { ColorsComponent } from './components/colors/colors.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { TableComponent } from './components/table/table.component';
 import { AdminComponent } from './pages/admin/admin.component';
@@ -49,6 +50,10 @@ const routes: Routes = [
       {
         path: 'cards',
         component: CardsComponent
+      },
+      {
+        path: 'colors',
+        component: ColorsComponent
       }
     ]
   },

@@ -19,6 +19,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BarchartComponent } from './components/barchart/barchart.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { ColorsComponent } from './components/colors/colors.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { CardsComponent } from './components/cards/cards.component';
     DashboardComponent,
     BarchartComponent,
     ButtonsComponent,
-    CardsComponent
+    CardsComponent,
+    ColorsComponent
   ],
   imports: [
     BrowserModule,
