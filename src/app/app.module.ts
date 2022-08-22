@@ -13,7 +13,6 @@ import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
-import { ContentComponent } from './components/content/content.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BarchartComponent } from './components/barchart/barchart.component';
@@ -23,7 +22,9 @@ import { ColorsComponent } from './components/colors/colors.component';
 import { BordersComponent } from './components/borders/borders.component';
 import { AnimationsComponent } from './components/animations/animations.component';
 import { OtherComponent } from './components/other/other.component';
-
+import { NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
+import { PaginationComponent } from './components/pagination/pagination.component';
+import { TableComponent } from './components/table/table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,6 @@ import { OtherComponent } from './components/other/other.component';
     SidebarComponent,
     LineChartComponent,
     PieChartComponent,
-    ContentComponent,
     FooterComponent,
     RegisterComponent,
     LoginComponent,
@@ -45,12 +45,15 @@ import { OtherComponent } from './components/other/other.component';
     ColorsComponent,
     BordersComponent,
     AnimationsComponent,
-    OtherComponent
+    OtherComponent,
+    PaginationComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgChartsModule,
+    NgbPaginationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
